@@ -1,9 +1,9 @@
-var express = require('express');
-var path = require('path');
-var open = require('open');
+import express from 'express';
+import path from 'path';
+import open from 'open';
 
-var port = 2000; //set port
-var app = express(); //create instance of express
+const port = 2000; //set port
+const app = express(); //create instance of express
 
 //Tell express which routes it should handle
 //any references to the root, should be handled by this function
