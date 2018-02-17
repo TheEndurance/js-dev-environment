@@ -16,5 +16,10 @@
   },
   "rules": {
     "no-console":1
+  },
+  "settings":{
+    "import/ignore":[
+      ".js"
+    ]
   }
 }
